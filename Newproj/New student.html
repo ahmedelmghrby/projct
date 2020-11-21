@@ -8,6 +8,8 @@
 <a href="New student.html" targt="_blank">New Studint</a>
 <hr>
 <form action="#" method="GET">
+    <fieldset >
+        <legend>Personal Information</legend>
     <p>
         <label>full Name:
             <input type="text" name="textname">
@@ -29,12 +31,33 @@
 
         </label>
     </p>
+    </fieldset>
+    <fieldset>
+        <legend>Contact Information</legend>
+   
+        <p>
+            <label>
+                Email: 
+                <input type="email" name="txtEmail">
+        
+            </label>
+        </p>
+        <p>
+            <label>
+                Phone: 
+                <input type="tel" name="txtPhone">
+        
+            </label>
+        </p>
     <p>
         <label>Address:
             <textarea rows="10" cols="10" name="textarea"></textarea>
 
         </label>
     </p>
+    </fieldset>
+    <fieldset>
+        <legend>University Information</legend>
     <p>
         <label>Choose your faculty:
             <select name="faculty">
@@ -45,7 +68,8 @@
 
         </label>
     </p>
-    
+    </fieldset>
+    <input type="submit" class="button" value="Add" name="add">
 </form>
 </body>
 <footer>
