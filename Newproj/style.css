@@ -1,7 +1,61 @@
-h1{
+/*h1{
     color: blue;text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
 body{
     background-color: darkgray;
 }
+*/
+ul{
+    list-style: none;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+.nav-right{
+    float: right;
+}
+a{
+    text-decoration: none;
+    color: #008CBA;
+}
+li a{
+    display: block;
+    color: darkgrey;
+    padding-bottom: 10px;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-top: 10px;
+}
+li a:hover{
+    background-color: lightgray;
+}
+li a.active{
+    background-color: green;
+    color: white;
+}
+div{
+    border: 5px;
+    border-style: groove;
+    border-radius: 20px;
+    box-shadow: -10px 10px 5px dimgray;
+    background-image: radial-gradient(white,blue);
+}
+table{
+    width: 100%;
+    border-collapse:collapse;
+}
+thead{
+    background-color: forestgreen;
+    color: ghostwhite;
+}
+thead tr{
+    text-align: center;
+}
+tbody tr:nth-child(odd){
+    background-color: grey;
+}
+
